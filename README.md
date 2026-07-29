@@ -325,7 +325,3 @@ This project demonstrates:
 # Author
 
 **Mahir Sahu**
-
-Masters in Statistics and Data Science
-
-Machine Learning | Data Analytics | Python
