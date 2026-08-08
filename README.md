@@ -130,14 +130,10 @@ For each random state:
 
 The random state producing the highest R² Score is selected automatically.
 
-Example:
-
 ```
-Best Random State : 324
-Best R² Score : 0.89
+Best Random State : 433
+Best R² Score : 0.8457059012561223
 ```
-
-*(The actual values depend on the dataset.)*
 
 ---
 
@@ -145,10 +141,8 @@ Best R² Score : 0.89
 
 The model is retrained using the best random state and evaluated again.
 
-Example Output
-
 ```
-Final R² Score : 0.89
+Final R² Score : 0.8457059012561223
 ```
 
 ---
@@ -191,7 +185,7 @@ pipe.predict(
 Output:
 
 ```
-Predicted Price : ₹ XXXXXXX
+Predicted Price : ₹ 458894.109608531
 ```
 
 (The predicted value depends on the trained model.)
@@ -205,32 +199,14 @@ After execution, the program produces the following outputs:
 ### Console Output
 
 ```
-Best Random State : <best_random_state>
+Best Random State : 433
 
-Best R² Score : <highest_r2_score>
+Best R² Score : 0.8457059012561223
 
-Final R² Score : <final_r2_score>
+Final R² Score : 0.8457059012561223
 
-Model saved successfully!
-
-Predicted Price : <predicted_price>
+Predicted Price : 458894.109608531
 ```
-
-Example:
-
-```
-Best Random State : 324
-
-Best R² Score : 0.8923
-
-Final R² Score : 0.8923
-
-Model saved successfully!
-
-Predicted Price : 546782.41
-```
-
-*(Numbers vary depending on the dataset and train-test split.)*
 
 ---
 
